@@ -9,7 +9,7 @@ http.get('https://jsonplaceholder.typicode.com/posts', function(err, posts) {
   }
 });
 
-//Get sigle post
+//Get single post
 
 http.get('https://jsonplaceholder.typicode.com/posts/1', function(err, post) {
   if (err) {
